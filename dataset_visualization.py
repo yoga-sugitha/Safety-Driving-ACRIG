@@ -173,7 +173,7 @@ def plot_class_distribution(train_dataset, val_dataset, test_dataset):
 
 # Example usage
 if __name__ == "__main__":
-    from howdriv_viz import DriverBehaviorDataset, create_person_splits
+    from howdriv_datasetv1 import DriverBehaviorDataset, create_person_splits
     from torchvision import transforms
     
     dataset_root = '/kaggle/input/howdir-safedriving-benchmarking-sample/HowDir'
